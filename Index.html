@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louiener Panerio | IT Systems, Automation & Operations Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            900: '#1e3a8a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #34d399 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- Top Navigation -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass-card border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-2 font-bold text-lg tracking-tight text-white">
+                <span class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-sm font-extrabold">LP</span>
+                <span>Louiener Panerio</span>
+            </a>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Projects & Case Studies</a>
+                <a href="#skills" class="hover:text-blue-400 transition">Skills & Tools</a>
+                <a href="#experience" class="hover:text-blue-400 transition">Experience</a>
+                <a href="#certifications" class="hover:text-blue-400 transition">Certifications</a>
+            </nav>
+            <div class="flex items-center gap-3">
+                <a href="#contact" class="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold transition shadow-lg shadow-blue-600/25">
+                    Hire / Contact
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7 space-y-6">
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-medium">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    Available for Remote Roles • US / AU / Global Shifts
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                    IT Support, Workflow Automation & <span class="gradient-text">Operations Leader</span>
+                </h1>
+                <p class="text-slate-300 text-lg leading-relaxed">
+                    Operations, Quality, and IT professional with <strong>9+ years of experience</strong> supporting premier US enterprise accounts including <strong>American Express, Citibank, Capital One, and Virgin Mobile</strong>. Backed by degrees in Information Technology and Computer Science, I bridge the gap between hands-on technical troubleshooting, Microsoft Power Platform automation, and high-compliance operations.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-2">
+                    <a href="#projects" class="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm flex items-center gap-2 transition shadow-lg shadow-blue-600/25">
+                        <i class="fa-solid fa-layer-group"></i> View Featured Work
+                    </a>
+                    <button onclick="window.print()" class="px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-sm flex items-center gap-2 border border-slate-700 transition">
+                        <i class="fa-solid fa-print"></i> Print / Save as PDF
+                    </button>
+                </div>
+                <div class="pt-4 flex flex-wrap items-center gap-6 text-sm text-slate-400">
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-location-dot text-blue-400"></i>
+                        San Jose del Monte, Bulacan, PH
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-envelope text-blue-400"></i>
+                        plouiener12@gmail.com
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-phone text-blue-400"></i>
+                        +63 966 350 8558
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Metrics Card -->
+            <div class="lg:col-span-5">
+                <div class="glass-card rounded-2xl p-6 sm:p-8 space-y-6 relative overflow-hidden">
+                    <div class="absolute -top-20 -right-20 w-48 h-48 bg-blue-500/10 rounded-full blur-3xl"></div>
+                    <h3 class="text-sm font-semibold uppercase tracking-wider text-blue-400">Career Highlights at a Glance</h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                            <div class="text-3xl font-extrabold text-white">9+ Yrs</div>
+                            <div class="text-xs text-slate-400 mt-1">US Enterprise BPO & Technical Support</div>
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                            <div class="text-3xl font-extrabold text-emerald-400">Top TL</div>
+                            <div class="text-xs text-slate-400 mt-1">Awarded Top Team Leader & VIP Performance (Feb 2026)</div>
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                            <div class="text-3xl font-extrabold text-purple-400">2 Degrees</div>
+                            <div class="text-xs text-slate-400 mt-1">BS Information Technology & Assoc. in Computer Science</div>
+                        </div>
+                        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                            <div class="text-3xl font-extrabold text-amber-400">LSSYB</div>
+                            <div class="text-xs text-slate-400 mt-1">Lean Six Sigma Yellow Belt Certified</div>
+                        </div>
+                    </div>
+                    <div class="p-4 rounded-xl bg-blue-950/40 border border-blue-800/40 flex items-start gap-3">
+                        <i class="fa-solid fa-shield-halved text-blue-400 mt-1"></i>
+                        <div class="text-xs text-slate-300 leading-relaxed">
+                            <strong class="text-white">Enterprise Compliance & Tech Ready:</strong> Deep fluency in Microsoft 365, Power Platform, ConnectWise/PSA ticketing, KYC/AML, and FDCPA standards.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects & Case Studies -->
+    <section id="projects" class="py-16 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+            <div>
+                <span class="text-blue-400 text-xs font-bold uppercase tracking-widest">Portfolio Highlights</span>
+                <h2 class="text-3xl font-bold text-white mt-1">Featured Systems & Operational Case Studies</h2>
+            </div>
+            <p class="text-slate-400 text-sm max-w-md mt-2 md:mt-0">
+                Real-world solutions built and executed across IT support, workflow automation, and enterprise quality operations.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Project 1 -->
+            <div class="glass-card rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-blue-500/40 transition group">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-blue-500/15 text-blue-400 border border-blue-500/30">
+                            Microsoft Power Platform
+                        </span>
+                        <span class="text-xs text-slate-400">Concentrix (American Express)</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition">
+                        Centralized Training & Quality Data Center
+                    </h3>
+                    <p class="text-slate-300 text-sm mt-3 leading-relaxed">
+                        Designed, built, and deployed an end-to-end internal data center from scratch to replace scattered spreadsheets and manual quality tracking across teams.
+                    </p>
+                    <ul class="mt-4 space-y-2 text-xs text-slate-300">
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                            <span><strong>Architecture:</strong> Built front-end user interfaces in <strong>Power Apps</strong> connected to structured <strong>SharePoint Online</strong> lists with role-based permissions.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                            <span><strong>Automation:</strong> Engineered <strong>Power Automate</strong> cloud flows for automated coaching alerts, approval routing, and real-time MS Teams/Outlook notifications.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                            <span><strong>Impact:</strong> Streamlined audit logging, eliminated version-control errors, and gave leaders real-time visibility into quality KPIs.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mt-6 pt-4 border-t border-slate-800 flex flex-wrap gap-2">
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">Power Apps</span>
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">Power Automate</span>
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">SharePoint Admin</span>
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">MS Teams / Outlook</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="glass-card rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-purple-500/40 transition group">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-purple-500/15 text-purple-400 border border-purple-500/30">
+                            Process Engineering & QA
+                        </span>
+                        <span class="text-xs text-slate-400">American Express Account</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white group-hover:text-purple-400 transition">
+                        New Accounts Workflow & KYC/AML Overhaul
+                    </h3>
+                    <p class="text-slate-300 text-sm mt-3 leading-relaxed">
+                        Served as Subject Matter Expert (SME) and Senior Quality Evaluator auditing high-risk consumer and corporate credit applications against strict US federal regulations.
+                    </p>
+                    <ul class="mt-4 space-y-2 text-xs text-slate-300">
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                            <span><strong>Root Cause & Pareto Analysis:</strong> Audited end-to-end application workflows to pinpoint recurring agent errors and compliance bottlenecks.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                            <span><strong>Documentation & SOPs:</strong> Proposed and authored clear SOP updates and step-by-step visual guides that directly reduced processing errors.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                            <span><strong>Calibration Leadership:</strong> Led cross-functional calibration sessions with Operations Managers and Team Leaders to align scoring accuracy.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mt-6 pt-4 border-t border-slate-800 flex flex-wrap gap-2">
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">KYC / AML</span>
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">Lean Six Sigma</span>
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">SOP Documentation</span>
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">Root Cause Analysis</span>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="glass-card rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-emerald-500/40 transition group">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">
+                            IT Infrastructure & Telecom Support
+                        </span>
+                        <span class="text-xs text-slate-400">NAIA All Terminals • ES Transport • Virgin Mobile</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition">
+                        Multi-Site L1/L2 IT Helpdesk & Remote Tech Support
+                    </h3>
+                    <p class="text-slate-300 text-sm mt-3 leading-relaxed">
+                        4+ years of foundational hands-on IT engineering and US telecommunications technical support across mission-critical airport, transport, and mobile environments.
+                    </p>
+                    <ul class="mt-4 space-y-2 text-xs text-slate-300">
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                            <span><strong>Endpoint & Network Maintenance:</strong> Maintained workstations, servers, drive space, printers, AV peripherals, and local LAN/WAN connectivity across all NAIA terminals.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                            <span><strong>Remote US Troubleshooting:</strong> Guided US Virgin Mobile subscribers through iOS/Android OS updates, APN/TCP/IP configs, 5G/LTE connectivity, and number porting.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                            <span><strong>Ticketing & Escalation:</strong> Managed high-volume support queues, user account provisioning (Move/Add/Change), and structured L2/L3 escalations.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mt-6 pt-4 border-t border-slate-800 flex flex-wrap gap-2">
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">Hardware / OS Support</span>
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">Microsoft 365</span>
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">Networking & APN</span>
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300"> PSA / Ticketing</span>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="glass-card rounded-2xl p-6 sm:p-8 flex flex-col justify-between hover:border-amber-500/40 transition group">
+                <div>
+                    <div class="flex items-center justify-between gap-2 mb-4">
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/30">
+                            Analytics & AI Workflows
+                        </span>
+                        <span class="text-xs text-slate-400">Operations Leadership & Automation</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white group-hover:text-amber-400 transition">
+                        P4P Analytics & Low-Code/No-Code Integrations
+                    </h3>
+                    <p class="text-slate-300 text-sm mt-3 leading-relaxed">
+                        Combined deep-dive spreadsheet analytics with modern automation platforms to optimize workforce scheduling, shrinkage, and KPI performance.
+                    </p>
+                    <ul class="mt-4 space-y-2 text-xs text-slate-300">
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                            <span><strong>Pay-for-Performance (P4P) Analytics:</strong> Used Advanced Excel (Pivot Tables, VLOOKUP) to identify performance variances and launch SMART coaching plans.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                            <span><strong>Cross-App Workflows:</strong> Trained in building automated pipelines using <strong>Make.com, Zapier, n8n, and Claude AI</strong> to connect CRMs, spreadsheets, and messaging apps.</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-check text-emerald-400 mt-0.5"></i>
+                            <span><strong>Recognized Results:</strong> Awarded <strong>Top Team Leader</strong> and achieved <strong>VIP Team Performance</strong> in February 2026.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mt-6 pt-4 border-t border-slate-800 flex flex-wrap gap-2">
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">Advanced Excel</span>
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">Make.com / Zapier / n8n</span>
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">KPI Dashboards</span>
+                    <span class="text-xs px-2.5 py-1 rounded bg-slate-800 text-slate-300">SMART Coaching</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Skills & Competencies -->
+    <section id="skills" class="py-16 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div class="mb-10">
+            <span class="text-blue-400 text-xs font-bold uppercase tracking-widest">Technical & Operational Stack</span>
+            <h2 class="text-3xl font-bold text-white mt-1">Core Skills & Tools</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Category 1 -->
+            <div class="glass-card rounded-2xl p-6 border-t-4 border-t-blue-500">
+                <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center text-blue-400 mb-4">
+                    <i class="fa-solid fa-gears text-lg"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">IT Systems & Automation</h3>
+                <p class="text-xs text-slate-400 mb-4">Cloud administration, low-code development, and L1/NOC technical support.</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Microsoft 365 Admin</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Power Apps</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Power Automate</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">SharePoint Online</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Make.com / Zapier / n8n</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Advanced Excel (Pivot, VLOOKUP)</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">ConnectWise / PSA / RMM</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Hardware, OS & Network L1</span>
+                </div>
+            </div>
+
+            <!-- Category 2 -->
+            <div class="glass-card rounded-2xl p-6 border-t-4 border-t-purple-500">
+                <div class="w-10 h-10 rounded-lg bg-purple-500/10 flex items-center justify-center text-purple-400 mb-4">
+                    <i class="fa-solid fa-chart-line text-lg"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">Operations & Quality Assurance</h3>
+                <p class="text-xs text-slate-400 mb-4">Team leadership, regulatory compliance, and continuous process improvement.</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Team Leadership</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">KPI & P4P Analytics</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Root Cause Analysis</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Pareto Analysis</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">KYC / AML Compliance</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">FDCPA Compliance</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Quality Audits & Calibration</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Workforce & Shrinkage Mgmt</span>
+                </div>
+            </div>
+
+            <!-- Category 3 -->
+            <div class="glass-card rounded-2xl p-6 border-t-4 border-t-emerald-500">
+                <div class="w-10 h-10 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-400 mb-4">
+                    <i class="fa-solid fa-truck-fast text-lg"></i>
+                </div>
+                <h3 class="text-lg font-bold text-white mb-2">Client Coordination & Dispatch</h3>
+                <p class="text-xs text-slate-400 mb-4">End-to-end client communication, outbound qualification, and freight/dispatch ops.</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">US Client Communication</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">CRM Administration</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Load Tracking & Scheduling</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">TMS Navigation</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Quoting & Rate Negotiation</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Carrier & Vendor Dispatch</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Outbound Lead Qualification</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/90 text-xs font-medium text-slate-200">Conflict Resolution</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline with Filter -->
+    <section id="experience" class="py-16 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-10 gap-4">
+            <div>
+                <span class="text-blue-400 text-xs font-bold uppercase tracking-widest">Career Journey</span>
+                <h2 class="text-3xl font-bold text-white mt-1">Professional Experience</h2>
+            </div>
+            <div class="flex flex-wrap gap-2" id="exp-filters">
+                <button onclick="filterExp('all')" class="exp-btn active px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-blue-600 text-white transition" data-filter="all">All Roles</button>
+                <button onclick="filterExp('leadership')" class="exp-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition" data-filter="leadership">Leadership & Quality</button>
+                <button onclick="filterExp('it')" class="exp-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition" data-filter="it">IT & Technical Support</button>
+                <button onclick="filterExp('client')" class="exp-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition" data-filter="client">Client & Sales Ops</button>
+            </div>
+        </div>
+
+        <div class="space-y-6 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-blue-500 before:via-slate-700 before:to-transparent">
+
+            <!-- Role 1 -->
+            <div class="exp-item relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group" data-category="client">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full border border-blue-500 bg-slate-900 text-blue-400 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow">
+                    <i class="fa-solid fa-headset text-xs"></i>
+                </div>
+                <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-card p-6 rounded-2xl">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-1">
+                        <span class="text-xs font-bold text-blue-400">Jul 2026 – Sep 2026</span>
+                        <span class="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-400">Remote (US)</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Cold Caller VA / Lead Qualification</h3>
+                    <div class="text-sm text-slate-400 mb-3">Vindicate Lending USA</div>
+                    <ul class="text-xs text-slate-300 space-y-1.5 list-disc list-inside">
+                        <li>Conducted outbound calls to US leads and clearly explained personal loan products.</li>
+                        <li>Qualified prospects based on interest, eligibility criteria, and financial goals.</li>
+                        <li>Scheduled follow-up consultations and maintained 100% accurate CRM call logs.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Role 2 -->
+            <div class="exp-item relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group" data-category="leadership">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full border border-emerald-500 bg-slate-900 text-emerald-400 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow">
+                    <i class="fa-solid fa-users-gear text-xs"></i>
+                </div>
+                <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-card p-6 rounded-2xl">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-1">
+                        <span class="text-xs font-bold text-emerald-400">Jun 2025 – Jun 2026</span>
+                        <span class="text-xs px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/20">Top Team Leader Award</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Operations Team Leader</h3>
+                    <div class="text-sm text-slate-400 mb-3">American Express (Concentrix) • Makati</div>
+                    <ul class="text-xs text-slate-300 space-y-1.5 list-disc list-inside">
+                        <li>Managed Pay for Performance (P4P) metrics and applied deep-dive analytics to eliminate workflow bottlenecks.</li>
+                        <li>Designed SMART action plans for technical and soft-skill proficiency, turning observations into measurable KPI gains.</li>
+                        <li>Controlled real-time workforce variables including schedule adherence, attendance, and shrinkage.</li>
+                        <li>Recognized as <strong>Top Team Leader</strong> (Feb 2026) with team earning <strong>VIP Performance</strong>.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Role 3 -->
+            <div class="exp-item relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group" data-category="leadership it">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full border border-purple-500 bg-slate-900 text-purple-400 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow">
+                    <i class="fa-solid fa-magnifying-glass-chart text-xs"></i>
+                </div>
+                <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-card p-6 rounded-2xl">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-1">
+                        <span class="text-xs font-bold text-purple-400">Sep 2022 – Jun 2025</span>
+                        <span class="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-400">Power Platform Builder</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Sr. Quality Evaluator & KYC/AML SME</h3>
+                    <div class="text-sm text-slate-400 mb-3">American Express (Concentrix) • Makati</div>
+                    <ul class="text-xs text-slate-300 space-y-1.5 list-disc list-inside">
+                        <li>Built a centralized <strong>Training and Quality Data Center</strong> using Power Apps, Power Automate, and SharePoint.</li>
+                        <li>Audited new account applications and calls against strict federal regulations and KYC/AML protocols.</li>
+                        <li>Led calibration sessions with Team Leaders and Operations Managers and authored documentation updates that cut errors.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Role 4 -->
+            <div class="exp-item relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group" data-category="leadership client">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full border border-blue-500 bg-slate-900 text-blue-400 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow">
+                    <i class="fa-solid fa-building-columns text-xs"></i>
+                </div>
+                <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-card p-6 rounded-2xl">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-1">
+                        <span class="text-xs font-bold text-blue-400">Jul 2019 – Sep 2021</span>
+                        <span class="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-400">US Financial Services</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Quality Auditor, SME & Account Specialist</h3>
+                    <div class="text-sm text-slate-400 mb-3">American Express, Citibank & Capital One (Concentrix)</div>
+                    <ul class="text-xs text-slate-300 space-y-1.5 list-disc list-inside">
+                        <li><strong>Customer Care Professional (Amex):</strong> Managed end-to-end acquisition for consumer and corporate accounts under KYC/AML rules.</li>
+                        <li><strong>Quality Auditor & Collection Specialist (Citibank):</strong> Audited US workstreams for compliance and negotiated FDCPA-compliant payment plans.</li>
+                        <li><strong>Guru / Subject Matter Expert (Capital One):</strong> Coached frontline teams on end-to-end execution, activations, and dispute resolution.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Role 5 -->
+            <div class="exp-item relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group" data-category="it">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full border border-emerald-500 bg-slate-900 text-emerald-400 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow">
+                    <i class="fa-solid fa-tower-cell text-xs"></i>
+                </div>
+                <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-card p-6 rounded-2xl">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-1">
+                        <span class="text-xs font-bold text-emerald-400">Jul 2017 – Jul 2019</span>
+                        <span class="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-400">US Telecom Support</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Customer Technical Support</h3>
+                    <div class="text-sm text-slate-400 mb-3">Virgin Mobile (ResultsCX) • Ortigas</div>
+                    <ul class="text-xs text-slate-300 space-y-1.5 list-disc list-inside">
+                        <li>Resolved Tier 1/Tier 2 technical issues across device setups, OS updates (iOS/Android), and 5G/LTE/roaming connectivity.</li>
+                        <li>Troubleshot SIM activations, number porting, and APN configurations to minimize subscriber downtime.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Role 6 -->
+            <div class="exp-item relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group" data-category="it">
+                <div class="flex items-center justify-center w-10 h-10 rounded-full border border-amber-500 bg-slate-900 text-amber-400 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow">
+                    <i class="fa-solid fa-network-wired text-xs"></i>
+                </div>
+                <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-card p-6 rounded-2xl">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-1">
+                        <span class="text-xs font-bold text-amber-400">2013 – 2016</span>
+                        <span class="text-xs px-2 py-0.5 rounded bg-slate-800 text-slate-400">On-Site IT & Aviation</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white">IT Support Engineer & Ground Operations</h3>
+                    <div class="text-sm text-slate-400 mb-3">ES Transport (2015–2016) • NAIA All Terminals (2014) • Cebu Pacific Air (2013–2014)</div>
+                    <ul class="text-xs text-slate-300 space-y-1.5 list-disc list-inside">
+                        <li>Delivered multi-site desktop, laptop, printer, AV peripheral, and local network troubleshooting across all NAIA airport terminals and ES Transport offices.</li>
+                        <li>Managed OS installations, drive health checks, user account setups, and hardware diagnostics.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="certifications" class="py-16 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <!-- Education -->
+            <div class="lg:col-span-5 space-y-6">
+                <div>
+                    <span class="text-blue-400 text-xs font-bold uppercase tracking-widest">Academic Foundation</span>
+                    <h2 class="text-2xl font-bold text-white mt-1">Education</h2>
+                </div>
+                <div class="space-y-4">
+                    <div class="glass-card p-5 rounded-2xl border-l-4 border-l-blue-500">
+                        <div class="text-xs text-blue-400 font-semibold">2009 – 2012</div>
+                        <h3 class="text-base font-bold text-white mt-1">Bachelor of Science in Information Technology</h3>
+                        <p class="text-xs text-slate-400 mt-1">Colegio de San Gabriel Arcangel</p>
+                    </div>
+                    <div class="glass-card p-5 rounded-2xl border-l-4 border-l-purple-500">
+                        <div class="text-xs text-purple-400 font-semibold">2006 – 2008</div>
+                        <h3 class="text-base font-bold text-white mt-1">Associate in Computer Science</h3>
+                        <p class="text-xs text-slate-400 mt-1">Colegio de San Gabriel Arcangel</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="lg:col-span-7 space-y-6">
+                <div>
+                    <span class="text-blue-400 text-xs font-bold uppercase tracking-widest">Continuous Learning</span>
+                    <h2 class="text-2xl font-bold text-white mt-1">Certifications & Specialized Training</h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <div class="glass-card p-4 rounded-xl flex items-start gap-3">
+                        <i class="fa-solid fa-certificate text-amber-400 mt-1"></i>
+                        <div>
+                            <h4 class="text-sm font-semibold text-white">Lean Six Sigma Yellow Belt</h4>
+                            <p class="text-xs text-slate-400">Issued Oct 2022</p>
+                        </div>
+                    </div>
+                    <div class="glass-card p-4 rounded-xl flex items-start gap-3">
+                        <i class="fa-solid fa-bolt text-blue-400 mt-1"></i>
+                        <div>
+                            <h4 class="text-sm font-semibold text-white">Low Code No Code: MS Power Automate & PowerApps</h4>
+                            <p class="text-xs text-slate-400">Issued Dec 2024</p>
+                        </div>
+                    </div>
+                    <div class="glass-card p-4 rounded-xl flex items-start gap-3">
+                        <i class="fa-solid fa-robot text-purple-400 mt-1"></i>
+                        <div>
+                            <h4 class="text-sm font-semibold text-white">AI Workshop: Make.com, Zapier, n8n & Claude</h4>
+                            <p class="text-xs text-slate-400">Workflow Automation Training</p>
+                        </div>
+                    </div>
+                    <div class="glass-card p-4 rounded-xl flex items-start gap-3">
+                        <i class="fa-solid fa-people-group text-emerald-400 mt-1"></i>
+                        <div>
+                            <h4 class="text-sm font-semibold text-white">Team Leader Supervisor Academy & Lead Now</h4>
+                            <p class="text-xs text-slate-400">Issued Feb 2026</p>
+                        </div>
+                    </div>
+                    <div class="glass-card p-4 rounded-xl flex items-start gap-3">
+                        <i class="fa-solid fa-comments text-blue-400 mt-1"></i>
+                        <div>
+                            <h4 class="text-sm font-semibold text-white">Grow Coaching Fundamentals</h4>
+                            <p class="text-xs text-slate-400">Issued Jul 2025</p>
+                        </div>
+                    </div>
+                    <div class="glass-card p-4 rounded-xl flex items-start gap-3">
+                        <i class="fa-solid fa-truck text-amber-400 mt-1"></i>
+                        <div>
+                            <h4 class="text-sm font-semibold text-white">Freight Courses 101: 3-Day Freight VA Challenge</h4>
+                            <p class="text-xs text-slate-400">Issued Oct 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section id="contact" class="py-16 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div class="glass-card rounded-3xl p-8 sm:p-12 text-center border border-blue-500/30 relative overflow-hidden">
+            <div class="max-w-2xl mx-auto space-y-6">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Ready to Support Your Team</h2>
+                <p class="text-slate-300 text-sm sm:text-base">
+                    Whether you need an L1/NOC Technician, IT Systems Administrator, Technical Support Analyst, or Operations Coordinator, my home office in Bulacan is fully equipped for immediate 24x7 or US/AU shift coverage.
+                </p>
+                <div class="flex flex-wrap justify-center gap-4 pt-2">
+                    <a href="mailto:plouiener12@gmail.com" class="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm flex items-center gap-2 transition">
+                        <i class="fa-solid fa-paper-plane"></i> plouiener12@gmail.com
+                    </a>
+                    <a href="tel:+639663508558" class="px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold text-sm flex items-center gap-2 border border-slate-700 transition">
+                        <i class="fa-solid fa-phone"></i> +63 966 350 8558
+                    </a>
+                    <button onclick="copyEmail()" id="copyBtn" class="px-5 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-semibold text-sm flex items-center gap-2 border border-slate-700 transition">
+                        <i class="fa-regular fa-copy"></i> Copy Email
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-xs text-slate-500 border-t border-slate-800/80">
+        <p>© 2026 Louiener Panerio • Built for IT, Automation & Service Operations Applications</p>
+    </footer>
+
+    <script>
+        function filterExp(category) {
+            const items = document.querySelectorAll('.exp-item');
+            const buttons = document.querySelectorAll('.exp-btn');
+
+            buttons.forEach(btn => {
+                if (btn.getAttribute('data-filter') === category) {
+                    btn.classList.remove('bg-slate-800', 'text-slate-300');
+                    btn.classList.add('bg-blue-600', 'text-white');
+                } else {
+                    btn.classList.remove('bg-blue-600', 'text-white');
+                    btn.classList.add('bg-slate-800', 'text-slate-300');
+                }
+            });
+
+            items.forEach(item => {
+                const itemCats = item.getAttribute('data-category');
+                if (category === 'all' || itemCats.includes(category)) {
+                    item.style.display = 'flex';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        function copyEmail() {
+            navigator.clipboard.writeText('plouiener12@gmail.com');
+            const btn = document.getElementById('copyBtn');
+            btn.innerHTML = '<i class="fa-solid fa-check text-emerald-400"></i> Copied!';
+            setTimeout(() => {
+                btn.innerHTML = '<i class="fa-regular fa-copy"></i> Copy Email';
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
